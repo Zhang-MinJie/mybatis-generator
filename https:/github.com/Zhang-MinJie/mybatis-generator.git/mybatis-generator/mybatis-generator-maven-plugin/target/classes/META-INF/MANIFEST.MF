@@ -7,7 +7,7 @@ Specification-Vendor: MyBatis.org
 Specification-Title: MyBatis Generator Maven Plugin
 Implementation-Vendor-Id: org.mybatis.generator
 Implementation-Vendor: MyBatis.org
-Implementation-Build-Date: 2019-04-11 10:09:52+0000
+Implementation-Build-Date: 2019-04-11 10:28:43+0000
 X-Compile-Target-JDK: 1.8
 X-Compile-Source-JDK: 1.8
 Build-Jdk: 1.8.0_181

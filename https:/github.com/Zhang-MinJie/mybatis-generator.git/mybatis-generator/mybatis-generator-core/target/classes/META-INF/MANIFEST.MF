@@ -8,7 +8,7 @@ Specification-Title: MyBatis Generator Core
 Implementation-Vendor-Id: org.mybatis.generator
 Implementation-Vendor: MyBatis.org
 Main-Class: org.mybatis.generator.api.ShellRunner
-Implementation-Build-Date: 2019-04-11 10:09:51+0000
+Implementation-Build-Date: 2019-04-11 10:29:11+0000
 X-Compile-Target-JDK: 1.8
 X-Compile-Source-JDK: 1.8
 Build-Jdk: 1.8.0_181
