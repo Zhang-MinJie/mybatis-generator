@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Implementation-Title: MyBatis Generator Core
+Automatic-Module-Name: org.mybatis.generator
+Implementation-Version: 1.4.0-SNAPSHOT
+Built-By: zhangminjie
+Specification-Vendor: MyBatis.org
+Specification-Title: MyBatis Generator Core
+Implementation-Vendor-Id: org.mybatis.generator
+Implementation-Vendor: MyBatis.org
+Main-Class: org.mybatis.generator.api.ShellRunner
+Implementation-Build-Date: 2019-04-11 10:29:11+0000
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+Build-Jdk: 1.8.0_181
+Specification-Version: 1.4
+Implementation-URL: http://www.mybatis.org/mybatis-generator/mybatis-g
+ enerator-core/
+Created-By: Maven Integration for Eclipse
+

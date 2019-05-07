@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2006-2018 the original author or authors.
+       Copyright 2006-2019 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@
     <table tableName="PKOnly" />
     <table tableName="PKFields" alias="B" >
       <columnOverride column="wierd$Field" delimitedColumnName="true"/>
-      <columnOverride column="stringBoolean" javaType="boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
+      <columnOverride column="stringBoolean" javaType="Boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
     </table>
     <table tableName="PKBlobs" />
     <table tableName="PKFieldsBlobs" />
@@ -65,7 +65,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -120,7 +120,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -170,7 +170,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -216,7 +216,7 @@
       <ignoreColumn column="decimal30Field" />
       <columnOverride column="datefield" property="startDate"/>
       <columnOverride column="decimal155Field" javaType="java.lang.Double" />
-      <columnOverride column="decimal60Field" javaType="int" />
+      <columnOverride column="decimal60Field" javaType="java.lang.Integer" />
       <columnOverride column="firstName" javaType="mbg.test.common.FirstName"
          typeHandler="mbg.test.mb3.common.FirstNameTypeHandler"/>
       <columnOverride column="timeField" javaType="mbg.test.common.MyTime"
@@ -392,7 +392,7 @@
     <table tableName="PKOnly" />
     <table tableName="PKFields" alias="B" >
       <columnOverride column="wierd$Field" delimitedColumnName="true"/>
-      <columnOverride column="stringBoolean" javaType="boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
+      <columnOverride column="stringBoolean" javaType="Boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
     </table>
     <table tableName="PKBlobs" />
     <table tableName="PKFieldsBlobs" />
@@ -405,7 +405,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -447,7 +447,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -490,7 +490,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -532,7 +532,7 @@
       <ignoreColumn column="decimal30Field" />
       <columnOverride column="datefield" property="startDate"/>
       <columnOverride column="decimal155Field" javaType="java.lang.Double" />
-      <columnOverride column="decimal60Field" javaType="int" />
+      <columnOverride column="decimal60Field" javaType="java.lang.Integer" />
       <columnOverride column="firstName" javaType="mbg.test.common.FirstName"
          typeHandler="mbg.test.mb3.common.FirstNameTypeHandler"/>
       <columnOverride column="timeField" javaType="mbg.test.common.MyTime"
@@ -618,7 +618,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -664,7 +664,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -711,7 +711,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -758,7 +758,7 @@
       <ignoreColumn column="decimal30Field" />
       <columnOverride column="datefield" property="startDate"/>
       <columnOverride column="decimal155Field" javaType="java.lang.Double" />
-      <columnOverride column="decimal60Field" javaType="int" />
+      <columnOverride column="decimal60Field" javaType="java.lang.Integer" />
       <columnOverride column="firstName" javaType="mbg.test.common.FirstName"
          typeHandler="mbg.test.mb3.common.FirstNameTypeHandler"/>
       <columnOverride column="timeField" javaType="mbg.test.common.MyTime"
@@ -830,7 +830,7 @@
     <table tableName="PKFields" alias="B" >
       <property name="selectAllOrderByClause" value="ID1, ID2"/>
       <columnOverride column="wierd$Field" delimitedColumnName="true"/>
-      <columnOverride column="stringBoolean" javaType="boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
+      <columnOverride column="stringBoolean" javaType="Boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
     </table>
     <table tableName="PKBlobs" />
     <table tableName="PKFieldsBlobs" />
@@ -843,7 +843,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
@@ -876,7 +876,7 @@
     <table tableName="PKFields" alias="B" >
       <property name="selectAllOrderByClause" value="ID1, ID2"/>
       <columnOverride column="wierd$Field" delimitedColumnName="true"/>
-      <columnOverride column="stringBoolean" javaType="boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
+      <columnOverride column="stringBoolean" javaType="Boolean" typeHandler="mbg.test.mb3.common.StringBooleanTypeHandler"/>
     </table>
     <table tableName="PKBlobs" />
     <table tableName="PKFieldsBlobs" />
@@ -889,7 +889,7 @@
       <columnOverride column="from" delimitedColumnName="true" >
         <property name="fredswife" value="wilma"/>
       </columnOverride>
-      <columnOverride column="active" javaType="boolean" />
+      <columnOverride column="active" javaType="Boolean" />
       <columnOverride column="_id1" delimitedColumnName="true" />
       <columnOverride column="$id2" delimitedColumnName="true" />
       <columnOverride column="id5_" delimitedColumnName="true" />
